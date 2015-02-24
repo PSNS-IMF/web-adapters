@@ -6,11 +6,15 @@
     <title>Psns Common Web Adapters</title>
     <authors>Jeff Purcell</authors>
     <owners>109.14</owners>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Adapters that enable decoupling of existing System.Web components.</description>
     <projectUrl>https://github.com/PSNS-IMF/web-adapters</projectUrl>
     <licenseUrl>https://github.com/PSNS-IMF/web-adapters/blob/master/LICENSE.md</licenseUrl>
     <releaseNotes>
+      ## 1.0.0.4
+      ### Features
+      * Requiring license acceptance.
+
       ## 1.0.0.3
       ### Features
       * Adding tags for nuspec; fixing 45Build.
