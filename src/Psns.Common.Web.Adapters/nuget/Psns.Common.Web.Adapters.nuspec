@@ -11,6 +11,10 @@
     <projectUrl>https://github.com/PSNS-IMF/web-adapters</projectUrl>
     <licenseUrl>https://github.com/PSNS-IMF/web-adapters/blob/master/LICENSE.md</licenseUrl>
     <releaseNotes>
+      ## 1.0.0.5
+      ### Features
+      * Adding an adapter for DependencyResolver.Current.
+
       ## 1.0.0.4
       ### Features
       * Requiring license acceptance.
@@ -27,13 +31,16 @@
     <dependencies>
       <group targetFramework="net40">
         <dependency id="Microsoft.AspNet.WebPages" version="2.0.30506.0" />
+        <dependency id="Microsoft.AspNet.Mvc" version="4.0.40804.0" />
       </group>
       <group targetFramework="net45">
         <dependency id="Microsoft.AspNet.WebPages" version="3.2.3" />
+        <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
       </group>
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.Web" />
+      <frameworkAssembly assemblyName="System.Web.Mvc" />
     </frameworkAssemblies>
   </metadata>
   <files>
